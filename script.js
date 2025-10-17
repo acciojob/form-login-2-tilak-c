@@ -1,6 +1,6 @@
 //your JS code here. If required.
 let tableBody=document.querySelector("#table tbody");
-const submitElement=document.getElementById('submit');
+const submitElement=document.getElementById('submitBtn');
 submitElement.addEventListener("click",function(event){
 	event.preventDefault();
 	const firstname=document.getElementById('firstname').value;
